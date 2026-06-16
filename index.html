@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Iman Kazemian — AI & Optimization Researcher and Data Engineer. Machine learning pipelines, LLM applications, and sensor-integrated predictive systems." />
+  <title>Iman Kazemian — AI &amp; Decision Making</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#hero" class="header__avatar" aria-label="Home">
+      <img src="assets/profile_raw.jpg" alt="Iman Kazemian" />
+    </a>
+    <div class="header__social">
+      <a href="https://www.linkedin.com/in/Iman-Kazemian/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+        <i class="devicon-linkedin-plain"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?user=817tResAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" class="social-icon">
+        <span class="social-icon__txt">GS</span>
+      </a>
+      <a href="mailto:iman.kazemian@wayne.edu" class="header__cta">
+        <span class="header__cta-dot"></span> Get in touch
+      </a>
+    </div>
+  </header>
+
+  <main class="snap">
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__rings" aria-hidden="true"></div>
+      <img src="assets/profile_raw.jpg" alt="Portrait of Iman Kazemian" class="hero__photo" />
+      <p class="hero__eyebrow">AI &amp; Decision Making</p>
+      <h1 class="hero__title"><span id="typewriter"></span><span class="cursor">|</span></h1>
+      <nav class="hero__nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <h2 class="section__title">About</h2>
+      <div class="about">
+        <img src="assets/profile_raw.jpg" alt="Iman Kazemian" class="about__photo" />
+        <div class="about__text">
+          <h3>Here is a little background</h3>
+          <p>
+            Hey 👋 I am an <strong>AI &amp; Optimization researcher</strong> and data engineer,
+            currently a Ph.D. candidate in Industrial &amp; Systems Engineering at Wayne State
+            University and an AI/ML Engineer at General Motors, based in Royal Oak, Michigan.
+          </p>
+          <p>
+            My research bridges <strong>deep learning</strong> and <strong>operations research</strong>
+            to solve real-world optimization problems. I build machine learning pipelines, large
+            language model applications, and sensor-integrated predictive systems — with a focus on
+            attention-based architectures, MLOps, and time-series modeling across manufacturing,
+            energy, healthcare, and supply-chain domains.
+          </p>
+          <p>
+            My dissertation explores <em>“Data-Centric and Attention-Based Architectures for
+            Learning and Solving Optimization Problems.”</em>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <h2 class="section__title">Experience</h2>
+      <div class="hscroll" id="expScroll">
+        <article class="xp-card">
+          <div class="xp-card__head">
+            <div class="xp-card__logo">GM</div>
+            <div>
+              <h3>AI/ML Engineer</h3>
+              <p class="xp-card__org">General Motors · Smart Manufacturing Research</p>
+              <p class="xp-card__date">Winter 2026 – Present</p>
+            </div>
+          </div>
+          <p class="xp-card__sub">Sensor-to-Decision Modeling for Resistance Spot Welding — GM WeldBrain</p>
+          <ul>
+            <li>Developed multi-head attention models fusing weld-stack data with high-frequency sensor streams to predict weld discrepancy in production RSW systems.</li>
+            <li>Built a Conditional Variational Autoencoder to generate synthetic POC-like data, improving generalization under domain mismatch.</li>
+            <li>Designed a cross-domain learning strategy to bridge lab-to-production feature shift.</li>
+          </ul>
+        </article>
+
+        <article class="xp-card">
+          <div class="xp-card__head">
+            <div class="xp-card__logo">WSU</div>
+            <div>
+              <h3>Research Assistant</h3>
+              <p class="xp-card__org">Wayne State University · ISE Department</p>
+              <p class="xp-card__date">Winter 2024 – Present</p>
+            </div>
+          </div>
+          <p class="xp-card__sub">Text Embedding Models Can Be Great Data Engineers</p>
+          <ul>
+            <li>Developed <strong>ADEPT</strong>, an automated data engineering pipeline combining entropy-based text embeddings with a variational information bottleneck.</li>
+            <li>Replaced manual feature extraction with significant accuracy gains across healthcare, finance, and IoT datasets.</li>
+            <li>Achieved high robustness to missing or irregular data.</li>
+          </ul>
+        </article>
+
+        <article class="xp-card">
+          <div class="xp-card__head">
+            <div class="xp-card__logo">WSU</div>
+            <div>
+              <h3>Research Assistant</h3>
+              <p class="xp-card__org">Wayne State University · ISE Department</p>
+              <p class="xp-card__date">Winter 2023 – Fall 2024</p>
+            </div>
+          </div>
+          <p class="xp-card__sub">AttenOpt: AI-Powered Optimization for Scheduling &amp; Maintenance</p>
+          <ul>
+            <li>Designed an end-to-end attention-based optimization framework for wind-farm and manufacturing maintenance scheduling.</li>
+            <li>Reached within 2% of Gurobi optimality at 100× speed on high-dimensional, constraint-heavy problems.</li>
+            <li>Built sensor-integrated models improving resource allocation efficiency by 15%.</li>
+          </ul>
+        </article>
+
+        <article class="xp-card">
+          <div class="xp-card__head">
+            <div class="xp-card__logo">WSU</div>
+            <div>
+              <h3>Research Assistant</h3>
+              <p class="xp-card__org">Wayne State University · ISE Department</p>
+              <p class="xp-card__date">Winter 2023 – Fall 2024</p>
+            </div>
+          </div>
+          <p class="xp-card__sub">Predictive Routing with Sensor-Integrated Degradation Modeling</p>
+          <ul>
+            <li>Solved a Degradation-Dependent Vehicle Routing Problem using sensor-based Remaining Useful Life predictions.</li>
+            <li>Integrated degradation forecasts into TSP and VRP frameworks to minimize downtime and failure risk.</li>
+            <li>Improved operational reliability and reduced predicted failures.</li>
+          </ul>
+        </article>
+
+        <article class="xp-card">
+          <div class="xp-card__head">
+            <div class="xp-card__logo">BPL</div>
+            <div>
+              <h3>Supply Chain Specialist</h3>
+              <p class="xp-card__org">Behban Pharmed Lotus</p>
+              <p class="xp-card__date">Spring 2015 – Winter 2022</p>
+            </div>
+          </div>
+          <p class="xp-card__sub">Production Optimization &amp; Process Re-engineering</p>
+          <ul>
+            <li>Led production optimization addressing material shortage within an MRPII system.</li>
+            <li>Increased efficiency and reduced production delays through strategic measures.</li>
+            <li>Implemented Business Process Management strategies to streamline workflows.</li>
+          </ul>
+        </article>
+      </div>
+      <p class="hscroll__hint">← scroll for more →</p>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <p class="section__sub">Hover over a skill for current proficiency</p>
+      <div class="skills-grid" id="skillsGrid">
+        <!-- populated by script.js -->
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <h2 class="section__title">Projects</h2>
+      <div class="hscroll" id="projScroll">
+        <article class="proj-card">
+          <div class="proj-card__thumb proj-thumb-1">AttenMfg</div>
+          <div class="proj-card__body">
+            <h3>Attention Networks for Sensor-Driven O&amp;M</h3>
+            <p>An attention-network optimization framework for sensor-driven operations &amp; maintenance in manufacturing systems. Published in the International Journal of Production Economics.</p>
+            <ul class="chips"><li>PyTorch</li><li>Gurobi</li><li>Attention</li></ul>
+          </div>
+        </article>
+        <article class="proj-card">
+          <div class="proj-card__thumb proj-thumb-2">ADEPT</div>
+          <div class="proj-card__body">
+            <h3>Text Embeddings as Data Engineers</h3>
+            <p>Automated data engineering pipeline combining entropy-based text embeddings with a variational information bottleneck, achieving robust gains across diverse domains.</p>
+            <ul class="chips"><li>Hugging Face</li><li>NLP</li><li>MLOps</li></ul>
+          </div>
+        </article>
+        <article class="proj-card">
+          <div class="proj-card__thumb proj-thumb-3">DD-VRP</div>
+          <div class="proj-card__body">
+            <h3>Predictive Maintenance &amp; Routing</h3>
+            <p>Sensor-driven predictive vehicle maintenance and routing with time windows, integrating Remaining Useful Life forecasts into TSP/VRP optimization. IISE Transactions.</p>
+            <ul class="chips"><li>Python</li><li>RUL</li><li>Routing</li></ul>
+          </div>
+        </article>
+        <article class="proj-card">
+          <div class="proj-card__thumb proj-thumb-4">Energy FM</div>
+          <div class="proj-card__body">
+            <h3>Foundation Model for Energy Systems</h3>
+            <p>An end-to-end framework with attention networks for sensor-to-decision optimization in energy systems. Conditionally accepted, Nature Communications.</p>
+            <ul class="chips"><li>PyTorch</li><li>Attention</li><li>Energy</li></ul>
+          </div>
+        </article>
+      </div>
+      <p class="hscroll__hint">← scroll for more →</p>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--contact" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <p class="contact__lead">I have got just what you need. Let's talk.</p>
+      <div class="contact__info">
+        <a href="mailto:iman.kazemian@wayne.edu"><span>✉️</span> iman.kazemian@wayne.edu</a>
+        <a href="https://www.linkedin.com/in/Iman-Kazemian/" target="_blank" rel="noopener"><span>in</span> /Iman-Kazemian</a>
+        <span class="contact__loc"><span>📍</span> Royal Oak, Michigan</span>
+      </div>
+      <form class="contact__form" id="contactForm">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="message" placeholder="Your message..." rows="4" required></textarea>
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
